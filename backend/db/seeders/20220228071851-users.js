@@ -14,7 +14,7 @@ module.exports = {
       [
         {
           username: 'baglady',
-          hashedPassword: 'simplepassword1.',
+          hashedPassword: bcrypt.hashSync('Admin101.'),
           email: 'skye@baglady.io',
           profilePic: 'https://media.istockphoto.com/vectors/hand-drawn-vector-abstract-flat-graphic-illustration-with-ethnic-vector-id1326085212?k=20&m=1326085212&s=612x612&w=0&h=sKT5jxTA9IouHDmvS_REAtOqodqmaAf5F6Jh5KiVFIM='
         },
