@@ -1,0 +1,32 @@
+.about-goal {
+  border: #f7cecd solid 2px;
+  padding: 20px;
+  height: 250px;
+  background-color: #f7cecd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goal-title {
+  background-color: #f7cecd;
+  padding: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 68px;
+  color: rgb(71, 69, 69);
+}
+
+.goal-summary {
+  background-color: #f7cecd;
+  width: 50%;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.goal {
+  background-color: #f7cecd;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(71, 69, 69);
+}

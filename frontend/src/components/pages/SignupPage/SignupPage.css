@@ -1,0 +1,102 @@
+.signup-page {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ),
+  url('https://bglh-marketplace.com/wp-content/uploads/2016/03/hoodwitchtaro1.jpg');
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.register-title {
+  font-size: 50px;
+  background: transparent;
+  font-weight: 700;
+}
+
+.register-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+
+.register-form label {
+  background: transparent;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.register-errors {
+  background: transparent;
+}
+
+.register-errors li {
+  background: transparent;
+  color: red;
+  font-weight: 700;
+}
+
+.register-input {
+  padding: 10px;
+  background-color: aliceblue;
+  border: none;
+  width: 250px;
+}
+
+#file-input {
+  border: red solid 2px;
+  display: none;
+}
+
+#file-label {
+  color: rgb(66, 62, 62);
+  padding: 10px;
+  width: 250px;
+  background-color: #F7CECD;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.file-icon {
+  margin-right: 20px;
+}
+
+.register-input::placeholder {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.register-button {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #8EF5CC;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+}
+
+.rl-button {
+  position: absolute;
+  top: 120px;
+  right: 70px;
+  background-color: #C25D89;
+  font-size: 24px;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}

@@ -1,0 +1,92 @@
+.coding-story {
+  /* change border color to #8ef5cc */
+  border: solid #8ef5cc 2px;
+  padding: 20px;
+  background-color: #8ef5cc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coding-title {
+  padding: 10px;
+  text-align: center;
+  background-color: #8ef5cc;
+  display: flex;
+  justify-content: center;
+}
+
+.cs-title {
+  width: 70%;
+  padding: 5px;
+  background-color: #8ef5cc;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.coding-snippet {
+  padding: 10px;
+  text-align: center;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #8ef5cc;
+}
+
+.cs-snippet {
+  background-color: #8ef5cc;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10px;
+  font-weight: 500;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.cs-more {
+  border: solid #5d83c2 2px;
+  margin-top: 20px;
+  border: none;
+  width: 600px;
+  padding: 10px;
+  background-color: #5d83c2;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.more-story {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  width: 60%;
+  background-color: #8ef5cc;
+}
+
+.grace-quote {
+  font-size: 14px;
+  width: 80%;
+  background-color: #8ef5cc;
+  align-self: center;
+}
+
+.grace-quote i {
+  font-weight: 500;
+  background-color: #8ef5cc;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.cs-story {
+  background-color: #8ef5cc;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10px;
+  font-weight: 500;
+  padding: 5px;
+  font-size: 17px;
+}

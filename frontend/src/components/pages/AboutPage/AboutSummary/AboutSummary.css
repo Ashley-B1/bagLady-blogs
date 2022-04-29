@@ -1,0 +1,66 @@
+.about-summary {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-image {
+  width: 400px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-top {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.about-intro {
+  width: 500px;
+  margin-left: 20px;
+}
+
+.introduction {
+  text-align: center;
+  font-family: 'Oooh Baby', cursive;
+  font-size: 42px;
+  padding: 5px;
+  color: #666
+}
+
+.intro-summary {
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.intro-bottom {
+  width: 450px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.intro-motto {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.motto-info {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.summary-affirmation {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 14px;
+  font-weight: 500;
+}

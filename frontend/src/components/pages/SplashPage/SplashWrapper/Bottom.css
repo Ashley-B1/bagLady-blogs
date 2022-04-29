@@ -1,0 +1,76 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.wrapper-bottom {
+  width: 100%;
+  margin: 10rem auto;
+  height: 570px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.slide img {
+  width: 50rem;
+  height: 30em;;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.2);
+  /* refers to settings.speed */
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  /* To ensure no overlap */
+  z-index: 10;
+}
+
+/* The icon */
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
+
+@media screen and (max-width: 1450px) {
+  .slide img {
+    width: 40rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper-bottom {
+    width: 100%;
+    margin: 10rem auto;
+    height: fit-content;
+  }
+
+  .slide img {
+    width: 20rem;
+    margin: 0 auto;
+  }
+}

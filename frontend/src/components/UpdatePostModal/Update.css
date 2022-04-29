@@ -1,0 +1,89 @@
+.update-post {
+  height: 1200px;
+  padding: 10px;
+}
+
+.edit-warning {
+  color: tomato;
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.update-image {
+  margin-left: 300px;
+  width: 35vw;
+  height: 300px;
+  object-fit: cover;
+}
+
+.update-form {
+  position: relative;
+}
+
+.update-form-info {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.update-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+.update-input {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+
+.update-input:focus {
+  outline: none;
+}
+
+.update-text {
+  margin-top: 100px;
+  font-size: 20px;
+  height: 100vh;
+  overflow-y: scroll;;
+}
+
+.category-update {
+  position: absolute;
+  display: flex;
+  border: none;
+  top: 100px;
+  right: 50px;
+  padding: 10px;
+  font-size: 20px;
+  width: 200px;
+  line-height: 3;
+  background: #8EF5CC;
+  border-radius: 10px;
+}
+
+.update-submit {
+  position: absolute;
+  top: 100px;
+  right: 300px;
+  color: white;
+  background-color: #5DB3C2;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 20px
+}

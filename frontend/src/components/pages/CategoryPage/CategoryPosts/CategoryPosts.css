@@ -1,0 +1,7 @@
+.category-posts {
+  margin-top: 20px;
+  flex: 7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,49 @@
+.contact-concerns {
+  background-color: #8EF5CC;
+  padding: 20px;
+  width: 70%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 15%
+}
+
+.concern-list {
+  background-color: #8EF5CC;
+  padding: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.concerns {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #8EF5CC;
+  font-family: 'Quicksand', sans-serif;
+  border-bottom: solid rgb(128, 122, 122) 1px;
+  font-weight: 600;
+  color: rgb(75, 70, 70);
+}
+
+.concern-item {
+  background-color: #8EF5CC;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.concern-item:hover {
+  color: #C25D89;
+}
+
+.concern-toggle {
+  background-color: #8EF5CC;
+  margin-top: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+}
+
+.git-link {
+  color: #1A7D8F;
+  font-weight: 500;
+}

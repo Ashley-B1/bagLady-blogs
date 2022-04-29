@@ -1,0 +1,124 @@
+.user-profile {
+  padding: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.user-intro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+}
+
+.user-pic {
+  border-radius: 100%;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.user-greeting {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.user-info {
+  padding: 10px;
+  display: flex;
+}
+
+.user-status {
+  font-size: 24px;
+  font-weight: 400;
+  flex: 6;
+  padding: 10px;
+  text-align: center;
+}
+
+.user-settings {
+  flex: 4;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.user-update {
+  color: teal;
+  cursor: pointer;
+}
+
+.user-delete {
+  color: tomato;
+  cursor: pointer;
+}
+
+.us-form {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.us-form label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.us-form input {
+  color: rgb(77, 74, 74);
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(56, 55, 55);
+}
+
+
+.settings-left {
+  padding: 15px;
+  flex: 6;
+  text-align: center;
+}
+
+.pp-edit {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.pp-edit img {
+  border-radius: 18px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.user-icon {
+  margin-left: 40px;
+  margin-top: 40px;
+  cursor: pointer;
+  background-color: #F7CECD;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.settings-right {
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+  padding: 15px;
+}
+
+.settings-submit {
+  width: 150px;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #5DB3C2;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}

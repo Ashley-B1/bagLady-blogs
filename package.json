@@ -1,0 +1,29 @@
+{
+  "name": "bag-lady-blogs",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "description": "Bag Lady is a blog website inspired by Erykah Badu's song [Bag Lady](https://genius.com/Erykah-badu-bag-lady-lyrics). It is heavily inspired by multiple blog sites, including:  - [The Mompreneur Project](https://themompreneurproject.com/)  - [Mattie James](https://mattiejames.com/)  - [Life With Tanay](https://lifewithtanay.com/)  - [Tiny Buddha](https://tinybuddha.com/about)",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "npm run build --prefix frontend",
+    "install": "npm --prefix backend install backend && npm --prefix frontend install frontend",
+    "dev:backend": "npm install --prefix backend start",
+    "dev:frontend": "npm install --prefix frontend start",
+    "sequelize": "npm run --prefix backend sequelize",
+    "sequelize-cli": "npm run --prefix backend sequelize-cli",
+    "start": "npm start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashley-B1/bag-lady-blogs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashley-B1/bag-lady-blogs/issues"
+  },
+  "homepage": "https://github.com/Ashley-B1/bag-lady-blogs#readme"
+}

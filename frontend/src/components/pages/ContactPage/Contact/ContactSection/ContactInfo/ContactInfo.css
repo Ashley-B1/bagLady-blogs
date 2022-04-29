@@ -1,0 +1,29 @@
+.contact-info {
+  background-color: #8EF5CC;
+  padding: 20px;
+  width: 70%;
+  margin: 0;
+  position: absolute;
+  top: 37%;
+  left: 15%
+}
+
+.cp-preference {
+  background-color: #8EF5CC;
+  padding: 5px;
+  color: rgb(75, 70, 70);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.cp-email-detail {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #8EF5CC;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.contact-email {
+  background-color: #8EF5CC;
+  font-weight: 600;
+  color: #1A7D8F;
+}

@@ -1,0 +1,28 @@
+.about-story {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.author-story {
+  width: 40%;
+  padding: 5px;
+}
+
+.story {
+  text-indent: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(75, 71, 71);
+}
+
+.story-photo {
+  width: 350px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  margin-left: 25px;
+}

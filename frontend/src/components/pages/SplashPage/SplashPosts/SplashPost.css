@@ -1,0 +1,9 @@
+.splash-posts {
+  flex: 9;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  height: 1200px;
+  /* overflow-y: hidden; */
+  overflow-y: scroll;
+}

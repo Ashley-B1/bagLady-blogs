@@ -1,0 +1,78 @@
+.login-page {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+    ),
+    url('https://64.media.tumblr.com/99c372b95b1f52161a7d1834fd859a04/tumblr_mu69etAsS81qcj6jzo1_1280.jpg');
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif;
+  /* background-attachment: fixed; */
+}
+
+.login-title {
+  font-size: 50px;
+  background: transparent;
+  font-weight: 700;
+}
+
+.login-errors {
+  background-color: transparent;
+}
+
+.login-errors li {
+  background-color: transparent;
+}
+
+.login-form {
+  margin: 20px;
+  display: flex;
+  background: transparent;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin: 10px 0;
+  background: transparent;
+  font-size: 20px;
+}
+
+.login-input {
+  padding: 10px;
+  background-color: aliceblue;
+  border: none;
+  width: 250px;
+}
+
+.login-input::placeholder {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.login-button {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #C25D89;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.lr-button {
+  position: absolute;
+  top: 120px;
+  right: 70px;
+  background-color: #5DB3C2;
+  font-size: 24px;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}

@@ -1,0 +1,31 @@
+/* TODO Add site wide styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #FAF9F5;
+}
+
+::-webkit-scrollbar {
+  width: 20px
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1A7D8F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C25D89;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F7CECD;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  width: fit-content;
+}
